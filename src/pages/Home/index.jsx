@@ -17,7 +17,7 @@ function Home() {
             <Button
               variant="contained"
               sx={{
-                margin: "30px 160px",
+                margin: "30px 170px",
                 width: "100px",
                 background: "#9095a1",
               }}
