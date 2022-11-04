@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://demos.creative-tim.com/vision-ui-dashboard-chakra/#/",
   "dependencies": {
+<<<<<<< HEAD
     "@chakra-ui/icons": "^1.1.5",
     "@chakra-ui/react": "1.8.8",
     "@chakra-ui/system": "^1.12.1",
@@ -36,6 +37,22 @@
     "react-table": "7.7.0",
     "stylis": "^4.0.10",
     "stylis-plugin-rtl": "^2.1.0"
+=======
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.12",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.55.0",
+    "web-vitals": "^2.1.4"
+>>>>>>> af9dbc8194ee8664c09923a13436b8529744c5bc
   },
   "resolutions": {
     "react-error-overlay": "6.0.9"
