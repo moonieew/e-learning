@@ -1,7 +1,7 @@
 import { Button } from "@chakra-ui/react";
 import React from "react";
 
-function Dashboard() {
+function TaiLieuHoc() {
   return (
     <>
       <Button>hello</Button>
@@ -9,4 +9,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default TaiLieuHoc;

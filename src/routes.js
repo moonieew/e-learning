@@ -2,6 +2,8 @@
 import Dashboard from "views/Dashboard/Dashboard.js";
 import Tables from "views/Dashboard/Tables.js";
 import BaiGiang from "views/Dashboard/BaiGiang";
+import TaiLieuHoc from "views/Dashboard/TaiLieuHoc";
+import BaiTap from "views/Dashboard/BaiTap";
 import Profile from "views/Dashboard/Profile.js";
 import SignIn from "views/Pages/SignIn.js";
 import SignUp from "views/Pages/SignUp.js";
@@ -15,6 +17,7 @@ import {
   RocketIcon,
   SupportIcon
 } from "components/Icons/Icons";
+import BaiKiemTra from "views/Dashboard/BaiKiemTra";
 
 var dashRoutes = [
   {
@@ -39,24 +42,24 @@ var dashRoutes = [
     layout: "/admin"
   },
   {
-    path: "/tables",
+    path: "/tailieu",
     name: "Tài liệu",
     icon: <StatsIcon color="inherit" />,
-    component: Tables,
+    component: TaiLieuHoc,
     layout: "/admin"
   },
   {
-    path: "/tables",
+    path: "/baitap",
     name: "Bài tập",
     icon: <StatsIcon color="inherit" />,
-    component: Tables,
+    component: BaiTap,
     layout: "/admin"
   },
   {
-    path: "/tables",
+    path: "/baikt",
     name: "Bài kiểm tra",
     icon: <StatsIcon color="inherit" />,
-    component: Tables,
+    component: BaiKiemTra,
     layout: "/admin"
   },
 

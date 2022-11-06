@@ -1,7 +1,7 @@
 import { Button } from "@chakra-ui/react";
 import React from "react";
 
-function Dashboard() {
+function BaiTap() {
   return (
     <>
       <Button>hello</Button>
@@ -9,4 +9,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default BaiTap;
