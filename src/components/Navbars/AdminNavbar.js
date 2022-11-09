@@ -1,8 +1,10 @@
 // Chakra Imports
 import { Box, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Flex, Link, useColorModeValue } from "@chakra-ui/react";
+import Header from "components/Header/index";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 import AdminNavbarLinks from "./AdminNavbarLinks";
+
 
 export default function AdminNavbar(props) {
   const [scrolled, setScrolled] = useState(false);
@@ -75,7 +77,7 @@ export default function AdminNavbar(props) {
       }}
       pt="8px"
       top="18px"
-      w={{ sm: "calc(100vw - 60px)", xl: "calc(100vw - 75px - 275px)" }}
+      w={{ sm: "calc(100vw - 60px)", xl: "calc(120vw - 75px - 275px)" }}
     >
       <Flex
         w="100%"
@@ -85,13 +87,14 @@ export default function AdminNavbar(props) {
         }}
         alignItems={{ xl: "center" }}
       >
-        <Box ms="auto" w={{ sm: "100%", md: "unset" }}>
-          <AdminNavbarLinks
+        <Box ms="auto" w={{ sm: "100%" }} sx={{ml:"350px"}}>
+          {/* <AdminNavbarLinks
             onOpen={props.onOpen}
             logoText={props.logoText}
             secondary={props.secondary}
             fixed={props.fixed}
-          />
+          /> */}
+          <Header/>
         </Box>
       </Flex>
     </Flex>

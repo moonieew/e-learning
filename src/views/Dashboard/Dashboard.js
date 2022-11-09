@@ -35,7 +35,7 @@ function Dashboard() {
         >
           <Text sx={{ margin: "8px" }}>Khóa học mới nhất</Text>
         </Box>
-        <Box sx={{ margin: "20px 80px", width: "600px" }}>
+        <Box sx={{ margin: "20px 80px", width: "100%" }}>
           <Course />
         </Box>
       </Stack>
